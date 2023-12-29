@@ -6,7 +6,7 @@ import requests
 
 # == Model =============================================================================================================
 # Initialize YOLOv8 object detector
-model_path = "/Users/jihyun/PycharmProjects/AI_Model/models/best.onnx"
+model_path = "/Users/{your path}/best.onnx"
 yolov8_detector = YOLOv8(model_path, conf_thres=0.5, iou_thres=0.5)
 # ======================================================================================================================
 
