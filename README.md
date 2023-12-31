@@ -31,6 +31,12 @@ model_path = "/Users/{your path}/best.onnx"
 yolov8_detector = YOLOv8(model_path, conf_thres=0.5, iou_thres=0.5)
 ======================================================================================================================
 ```
+* If it doesn't work, check the camera number.
+* When running a camera on a laptop, each person has a different executable camera number.
+* You can change the number here.
+```shell 
+cap = cv2.VideoCapture(1)
+```
 
 # 24 Hours Monitoring System -  Baby Status Detection
 
